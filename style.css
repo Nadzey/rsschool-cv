@@ -1,0 +1,100 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    color: #0077b5;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Layout styles */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url('picture.jpg');
+    background-size: cover;
+  }
+  
+  /* Body font */
+  body {
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  /* Header font */
+  header h1,
+  header h2 {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  /* Main font */
+  main {
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .container{
+    padding: 1rem;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h3 {
+    margin-bottom: 20px;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
+  pre {
+    background-color: #f2f2f2;
+    padding: 10px;
+    overflow-x: auto;
+  }
+  
+  footer {
+    background-color: #575252;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  /* Media queries */
+  @media screen and (max-width: 768px) {
+    header {
+      height: 200px;
+    }
+  }  
